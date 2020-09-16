@@ -1,4 +1,4 @@
-FROM richarvey/nginx-php-fpm:1.10.3
+FROM richarvey/nginx-php-fpm:1.10.4
 
 # Remove nginx-php-fpm branded default error pages
 RUN rm -rf /var/www/errors/*
