@@ -1,5 +1,7 @@
 FROM richarvey/nginx-php-fpm:1.10.4
 
+RUN apk update && apk upgrade
+
 # Remove nginx-php-fpm branded default error pages
 RUN rm -rf /var/www/errors/*
 
